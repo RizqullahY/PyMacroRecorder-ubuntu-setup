@@ -1,25 +1,25 @@
 # PyMacroRecorder-1.1.9.4 – Setup di Ubuntu (BIAR GAK PUYENG!)
 
 ## Apa Ini?
-Jujur aja, gue juga gak tau kenapa bikin guide ini… Tapi ya, daripada setup di Ubuntu bikin kepala ngebul, mending gue tulis sekalian biar ente gak ngalamin penderitaan yang sama. 😆
+Jujur aja, gue juga gak tau kenapa bikin guide ini… Tapi ya, 
 
-Doks asli: [di sini](https://github.com/LOUDO56/PyMacroRecord)  
-Website asli: [di sini](www.pymacrorecord.com/)  
+Doks asli: [di sini](https://github.com/LOUDO56/PyMacroRecord)
+Website asli: [di sini](www.pymacrorecord.com/)
 
 ---
 
 ## Cara Install (Santai Aja, Gampang Kok... *Kayaknya*)
 
 ### **1. Pasang Python dulu!**
-> Harus ada Python di sistem ente, kalau bisa yang paling baru atau LTS biar gak ribet.  
-> Download [di sini](https://www.python.org/downloads/) terus install kayak biasa.  
+> Harus ada Python di sistem, kalau bisa yang paling baru atau LTS biar gak ribet. 
+> Download [di sini](https://www.python.org/downloads/) terus install kayak biasa.
 
-![Python Install](./asssets/python3_--version_pip.png)  
+![Python Install](assets/python3_--version_pip.png)
 
 ---
 
 ### **2. Download PyMacroRecorder**
-> Buka halaman [release di GitHub](https://github.com/LOUDO56/PyMacroRecord/releases) dan download versi terbaru.  
+> Buka halaman [release di GitHub](https://github.com/LOUDO56/PyMacroRecord/releases) dan download versi terbaru.
 > Setelah download, **extract** file-nya.
 
 ---
@@ -31,9 +31,9 @@ Kalau baca dokumentasi aslinya, disuruh jalanin ini:
 cd <PATH TO SOFTWARE FOLDER>
 pip3 install -r requirements.txt
 ```
-> **Masalahnya:** ini error!  
+> **Masalahnya:** ini error!
 
-![Error](./assets/external-managed-env.png)  
+![Error](assets/external-managed-env.png) 
 
 ---
 
@@ -61,14 +61,14 @@ Setelah semua siap, masuk ke folder `src` dan gaskeun:
 cd src
 python3 main.py
 ```
-![Main.py Jalan](./assets/start-main-py.png)  
+![Main.py Jalan](assets/start-main-py.png)
 
 ---
 
 ## **FINAAAAL!** 🚀
-> Sekarang tinggal dicoba. **TAPI PAS GUA COBA KOK MALAH GAK JALAN YA??** 🤡  
+> Sekarang tinggal dicoba. **TAPI PAS GUA COBA KOK MALAH GAK JALAN YA??** 🤡 
 
-![Demo](./assets/usage-demo.webm)  
+![Demo](assets/usage-demo.webm) 
 
-Pokoknya kalau ada error, jangan panik. Coba cek ulang langkah-langkahnya, atau serahkan ke yang lebih jago.  
+Pokoknya kalau ada error, jangan panik. Coba cek ulang langkah-langkahnya, atau serahkan ke yang lebih jago. 
 **SEKIAN! SELAMAT MENCOBA & SEMOGA BERHASIL!** 🎉🔥
