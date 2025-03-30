@@ -1,59 +1,74 @@
-PyMacroRecorder-1.1.9.4 Linux (Ubuntu Setup)
-doksli (dokumentasi asli) -> https://github.com/LOUDO56/PyMacroRecord
-websli (website  asli) -> www.pymacrorecord.com/
+# PyMacroRecorder-1.1.9.4 – Setup di Ubuntu (BIAR GAK PUYENG!)
 
-- kenapa saya buat ini?
-gak ada alasan apa apa sih hehehe soalnya setup di ubuntu lumanyan ribet jadi tak setup sekalian
+## Apa Ini?
+Jujur aja, gue juga gak tau kenapa bikin guide ini… Tapi ya, daripada setup di Ubuntu bikin kepala ngebul, mending gue tulis sekalian biar ente gak ngalamin penderitaan yang sama. 😆
 
-- gimana setupnya bang? aku nggak paham
-oke oke gini step stepnya
+Doks asli: [di sini](https://github.com/LOUDO56/PyMacroRecord)  
+Website asli: [di sini](www.pymacrorecord.com/)  
 
-1. kalau dari dokumentasi asli itu  harus punya python - (kalau bisa yang terbaru / lts) https://www.python.org/downloads/
-()[./assset/pippip.png]
-2. download release nya juga... https://github.com/LOUDO56/PyMacroRecord/releases
-3. hasil download-an di extract
 ---
-4. kalau sesuai doksli itu di suruh masuk ke folder terus install requirements.txt
+
+## Cara Install (Santai Aja, Gampang Kok... *Kayaknya*)
+
+### **1. Pasang Python dulu!**
+> Harus ada Python di sistem ente, kalau bisa yang paling baru atau LTS biar gak ribet.  
+> Download [di sini](https://www.python.org/downloads/) terus install kayak biasa.  
+
+![Python Install](./asssets/python3_--version_pip.png)  
+
+---
+
+### **2. Download PyMacroRecorder**
+> Buka halaman [release di GitHub](https://github.com/LOUDO56/PyMacroRecord/releases) dan download versi terbaru.  
+> Setelah download, **extract** file-nya.
+
+---
+
+### **3. Masuk ke Folder dan Install Dependensi**
+Kalau baca dokumentasi aslinya, disuruh jalanin ini:
+
 ```bash
 cd <PATH TO SOFTWARE FOLDER>
 pip3 install -r requirements.txt
 ```
-tapi kalau gitu malah error
-()[./asset/env.png]
+> **Masalahnya:** ini error!  
 
-oleh karena itu gue pakai venv langsung di folder itu
+![Error](./assets/external-managed-env.png)  
+
+---
+
+### **4. Solusi Anti Error: Pakai Virtual Environment (venv)!**  
+Biar gak ada drama, kita bikin environment virtual langsung di folder proyek.
+
 ```bash
 virtualenv .
 source bin/activate
 ```
-5. https://www.pythonguis.com/installation/install-tkinter-linux/ -> install tkinker juga
-6. masuk folder src trus jalankan main.py
+> Sekarang Python dan pip udah keisolasi, jadi gak bentrok sama sistem.
+
+---
+
+### **5. Install Tkinter (Biar UI-nya Bisa Jalan!)**
+> Install dulu Tkinternya.
+> Ikuti panduan lengkapnya di sini: [Install Tkinter di Linux](https://www.pythonguis.com/installation/install-tkinter-linux/).
+
+---
+
+### **6. Jalankan Programnya!**
+Setelah semua siap, masuk ke folder `src` dan gaskeun:
+
 ```bash
 cd src
 python3 main.py
 ```
-()[./asste/mainpy.png]
+![Main.py Jalan](./assets/start-main-py.png)  
 
-FINAL
-()[asset/demo.webm]
-SILAHKAN DICOBA COBA TAPI TADI KU COBA KOK TIDAK BISA YA HEHEHE
+---
 
+## **FINAAAAL!** 🚀
+> Sekarang tinggal dicoba. **TAPI PAS GUA COBA KOK MALAH GAK JALAN YA??** 🤡  
 
+![Demo](./assets/usage-demo.webm)  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Pokoknya kalau ada error, jangan panik. Coba cek ulang langkah-langkahnya, atau serahkan ke yang lebih jago.  
+**SEKIAN! SELAMAT MENCOBA & SEMOGA BERHASIL!** 🎉🔥
