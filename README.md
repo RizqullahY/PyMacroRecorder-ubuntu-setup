@@ -1,4 +1,4 @@
-# PyMacroRecorder-1.1.9.4 – Setup di Ubuntu (BIAR GAK PUYENG!)
+# PyMacroRecorder – Setup di Ubuntu (BIAR GAK PUYENG!)
 
 ## Apa Ini?
 Jujur aja, gue juga gak tau kenapa bikin guide ini… Tapi ya, 
