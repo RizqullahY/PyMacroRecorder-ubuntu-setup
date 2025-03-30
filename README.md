@@ -68,7 +68,7 @@ python3 main.py
 ## **FINAAAAL!** 🚀
 > Sekarang tinggal dicoba. **TAPI PAS GUA COBA KOK MALAH GAK JALAN YA??** 🤡 
 
-![Demo](assets/demo-usage.webm) 
+![Demo](assets/demo-usage.gif) 
 
 Pokoknya kalau ada error, jangan panik. Coba cek ulang langkah-langkahnya, atau serahkan ke yang lebih jago. 
 **SEKIAN! SELAMAT MENCOBA & SEMOGA BERHASIL!** 🎉🔥
